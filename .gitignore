@@ -1,0 +1,9 @@
+/outputs
+/catboost_info
+/*__pycache__/
+*.py[cod]
+*$py.class
+/data/prediction_catboost.csv
+/data/prediction_logreg.csv
+/data/train_df.csv
+/data/test_df.csv

@@ -1,0 +1,17 @@
+data:
+  train_data_link: https://drive.google.com/uc?export=download&id=1r8iEoCt-qKEzbGrmT414vbv9_rbPlrNW
+  test_data_link: https://drive.google.com/uc?export=download&id=1PCmLbAjAjseei3n_dQVwDqxArs25mIBJ
+  train_data_path: ./data/train_df.csv
+  test_data_path: ./data/test_df.csv
+  pred_data_path: 
+    boosting: ./data/prediction_catboost.csv
+    logreg: ./data/prediction_logreg.csv
+
+model:
+  boosting:
+    iterations: 100
+    depth: 4
+    learning_rate: 0.05
+  logreg:
+    penalty: l1
+    solver: liblinear
